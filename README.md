@@ -11,6 +11,3 @@ By exploring this project, you'll gain insights into how to set up and leverage 
 Feel free to dive into the documentation and source code, and take advantage of this powerful solution to elevate your Azure Data Factory pipeline executions to new heights of efficiency and security. Your feedback and contributions are highly valued as we strive to continually enhance and refine this project.
 
 [PipelineRun](https://github.com/gopi-asali/AzureFunctionADF/assets/11779537/c1423ebf-67ef-4dc6-95e2-5ad86e694765)
-
-![AzureFunctionCode](https://github.com/gopi-asali/AzureFunctionADF/assets/11779537/19081b10-688e-44b8-b734-413f9cb6e1fd)
-
