@@ -39,7 +39,7 @@ namespace HttpsTrigger
             name = name ?? data?.name;
 
             
-                log.LogInformation("Validated user");
+               
                 SecretClientOptions options = new SecretClientOptions()
                 {
                     Retry =
@@ -55,6 +55,8 @@ namespace HttpsTrigger
             KeyVaultSecret usernameSec = secClient.GetSecret("username");
             if (string.Equals(name, usernameSec.Value))
             {
+
+                log.LogInformation("Validated user");
                 KeyVaultSecret tenantIDsecret = secClient.GetSecret("tenantID");
                 KeyVaultSecret applicationIdsecret = secClient.GetSecret("applicationId");
                 KeyVaultSecret authenticationKeysecret = secClient.GetSecret("authenticationKey");
